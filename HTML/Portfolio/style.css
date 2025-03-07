@@ -122,7 +122,7 @@ nav{
     main{
         width: 80%;
         height:80%;
-        h1{
+        projectHead{
             font-size:40px;
             padding:20px;
             text-align: center;
@@ -135,14 +135,103 @@ nav{
             justify-content: center;
             align-items: center;
             gap:15px;
+            border-radius:10px;
             flex-wrap: wrap;
             height:80%;
-            background-color:rgba(101, 51, 167, 0.536);
+            background-color:rgba(101, 51, 167, 0.352);
             div{
                 height:45%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap:30px;
                 width:45%;
-                border:3px solid;
+                h1{
+                    font-size:30px;
+                }
+                p{
+                    font-size:20px;
+                }
             }
         }
     }
+}
+
+#imageArticle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        box-shadow: 3px 3px 3px 3px yellow;
+        border-radius:5px;
+    }
+    img:hover{
+        transform: scale(1.02);
+    }
+}
+#projectHead{
+    text-align: center;
+    font-size:50px;
+    text-decoration: underline;
+}
+
+.experience{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgb(0, 255, 255),rgb(102, 0, 255));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-radius:10px;
+        background-color:rgb(35, 125, 204) !important;
+        div{
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+            flex-direction: column;
+            padding:50px;
+            height:90%;
+            width:50%;
+        }
+    }
+}
+.achievments{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgb(102, 0, 255),rgb(0, 255, 255));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    main{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding:50px;
+        justify-content: space-around;
+        div{
+            height:45%;
+            width:45%;
+        }
+    }
+}
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgb(0, 255, 255),rgb(102, 0, 255));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experience>main,.achievments>main,.contact>main{
+    height:80%;
+    width:80%;
+    background-color:rgb(197, 125, 137);
 }
