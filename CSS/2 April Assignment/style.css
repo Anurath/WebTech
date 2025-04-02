@@ -1,0 +1,12 @@
+p{
+    color:red;
+}
+#para{
+    font-size: 70px;
+}
+.highlight{
+    background-color: pink;
+}
+#para1,h1,span{
+    background-color: blue;
+}

@@ -1,0 +1,15 @@
+div>p{
+    background-color:orange;
+}
+
+section>h1+p{
+    color:blue;
+}
+
+section h1{
+    color:aqua;
+}
+
+div p{
+    cursor: pointer;
+}

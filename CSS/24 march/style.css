@@ -1,0 +1,19 @@
+div+p{
+    background-color: pink;
+}
+
+div~p{
+    color: blue;
+}
+
+div+p~div{
+    background-color: rgb(211, 26, 57);
+}
+
+section+section~button{
+    height:50px;
+    width:80px;
+    background-color:brown;
+    border-radius:50%;
+    cursor: pointer;
+}
