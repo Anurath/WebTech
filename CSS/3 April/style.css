@@ -1,0 +1,30 @@
+body{
+    height:100vh;
+}
+.box1{
+    height:300px;
+    width:300px;
+    background-color:red;
+}
+
+.box2{
+    height:600px;
+    width:600px;
+    background:saddlebrown;
+}
+.box21{
+    height:20vh;
+    width:20vw;
+    background-color:hotpink;
+}
+
+main{
+    font-size:100px;
+}
+
+div{
+    font-size :0.5em;;
+}
+#box5{
+    font-size: 2rem;;
+}

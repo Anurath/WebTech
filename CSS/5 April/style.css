@@ -1,0 +1,69 @@
+body{
+    width: 100vh;
+    height:100vw;
+}
+.container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.one div{
+    background-color:aqua;
+    height:400px;
+    width: 400px;
+    background-image: url(./11.png);
+    background-position:left;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.two div{
+    height: 500px;
+    width:500px;
+    border-radius: 50%;
+    background-image:linear-gradient(rgb(171, 166, 166),rgb(247, 247, 22));
+    transition: 10s;
+}
+.two div:hover{
+    background-image:linear-gradient(red,yellow);
+    transform: rotate(3000deg);
+    transform: translate(500px,500px);
+}
+
+.three div{
+    height: 500px;
+    width: 500px;
+    border-radius:50%;
+    background-image: radial-gradient(red,yellow);
+    transition: 10s;
+}
+.three div:hover{
+    transform:translate(500px,500px);
+    background-image:radial-gradient(yellow,red);
+}
+
+.four div{
+    height:500px;
+    width:500px;
+    border-radius:50%;
+    background-image:conic-gradient(red,yellow,green,cyan,blue,magenta,red);
+    transition: 10s;
+}
+
+.four div:hover{
+    transform: rotate(30000deg);
+}
+
+.five div{
+    height:500px;
+    width:500px;
+    border-radius: 50%;
+    background-image:repeating-linear-gradient(red 5%,yellow 20%);
+}
+
+.six div{
+    height:500px;
+    width:500px;
+    border-radius: 50%;
+    background-image:repeating-radial-gradient(rgb(0, 0, 0) 5%,rgb(255, 255, 255) 20%);
+}
