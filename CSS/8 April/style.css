@@ -1,0 +1,27 @@
+body{
+    width:100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    color:rgb(206, 123, 35);
+    font-size: 150px;
+    text-shadow:5px 5px 3px rgb(223, 118, 136);
+}
+p{
+    text-indent: 20px;
+}
+h2{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: dotted;
+}
+div{
+    height:300px;
+    width:300px;
+    background-color:yellow;
+}
