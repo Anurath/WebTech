@@ -1,0 +1,153 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.padding{
+    width:500px;
+    height:500px;
+    background-color:aqua;
+    border:3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.padding>div{
+    height:200px;
+    width:200px;
+    background-color: hotpink;
+    border:2px solid black;
+}
+
+.box1{
+    padding: 10px;
+}
+.box2{
+    padding: 10px 20px;
+}
+.box3{
+    padding: 10px 10px 12px;
+}
+.box4{
+    padding:2px 3px 5px 6px;
+}
+
+.margin{
+    width:500px;
+    height:500px;
+    background-color:aqua;
+    border:3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.margin>div{
+    height:200px;
+    width:200px;
+    background-color: hotpink;
+    border:2px solid black;
+}
+.box5{
+    margin:10px;
+}
+.box6{
+    margin:10px 10px;
+}
+.box7{
+    margin:10px 20px 30px;
+}
+.box8{
+    margin:4px 5px 6px 7px;
+}
+
+.border{
+    width:500px;
+    height:3000px;
+    background-color:aqua;
+    flex-direction: column;
+    border:3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box9{
+    height:300px;
+    width:300px;
+    border-width:50px 40px 20px 10px;
+    border-style:groove;
+    border-color:blue;
+}
+
+.box10{
+    height:300px;
+    width:300px;
+    border-width:50px 40px 20px 30px;
+    border-style:groove solid dotted dashed;
+    border-color:blue;
+}
+
+.box11{
+    height:300px;
+    width:300px;
+    border-width:50px 40px 20px 30px;
+    border-style:groove solid dotted dashed;
+    border-color:darkgray red pink firebrick;
+}
+.box12{
+    height:300px;
+    width:300px;
+    background-color:gray;
+    border-top:20px groove hotpink;
+}
+.box13{
+    height:300px;
+    width:300px;
+    background-color:gray;
+    border-right:20px groove hotpink;
+}
+.box14{
+    height:300px;
+    width:300px;
+    background-color:gray;
+    border-bottom:20px groove hotpink;
+}
+.box15{
+    height:300px;
+    width:300px;
+    background-color:gray;
+    border-left:20px groove hotpink;
+}
+
+.borderRedius{
+    height:1000px;
+    width:500px;
+    border:3px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box16{
+    height:200px;
+    width:200px;
+    border-top:20px;
+    border-top:5px dashed blue;
+    border-radius:50%;
+    transition:40s;
+}
+.box16:hover{
+    transform: rotate(30000deg);
+}
+
+.box17{
+    width:200px;
+    height:200px;
+    border-radius:0px 50% 50% 50%;
+    background-color: aqua;
+}
