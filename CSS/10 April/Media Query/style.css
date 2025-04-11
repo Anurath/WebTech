@@ -6,10 +6,73 @@ nav{
     justify-content: space-evenly;
     background:yellow;
 }
+.collapse{
+    position:absolute;
+    display: none;
+    right:20px;
+    
+}
+.collapse:hover{
+    background-color: pink;
+    top:8vh;
+    height:400px;
+    width:200px;
+}
 
-@media (max-width:800px)
+.imageOne{
+    height:40vh;
+    width:60vw;
+    background-color:aqua;
+}
+main{
+    margin-top:2rem;
+    display: flex;
+}
+.imageTwo{
+    height: 40vh;
+    width:40vw;
+    background-color:hotpink;
+}
+
+section{
+    margin-top:1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+section div{
+    margin-top: 1rem;
+    height:200px;
+    width:150px;
+    border:3px solid black;
+}
+
+section div:hover{
+    transition:0.5s;
+    transform: scale(1.03);
+}
+
+@media (max-width:600px)
 {
-    .hl{
+    .hl,.contact,.enq,.about{
         display: none;
+    }
+    .collapse{
+        display: block;
+    }
+    .imageOne{
+        display: block;
+        height:30vh;
+        width:100vw;
+        background-color:firebrick;
+    }
+    .imageTwo{
+        height:30vh;
+        width:100vw;
+        background-color:tomato;
+    }
+    main{
+        display: block;
     }
 }
