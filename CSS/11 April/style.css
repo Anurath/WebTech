@@ -12,6 +12,7 @@ body{
     justify-content: center;
 }
 
+
 div{
     display: flex;
     align-items: center;
@@ -20,6 +21,8 @@ div{
     animation-duration:10s;
     animation-iteration-count:infinite;
 }
+
+
 
 .box1{
     height:60vh;
